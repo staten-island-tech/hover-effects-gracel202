@@ -4,7 +4,15 @@
     "sources": [
         "style.scss",
         "_variables.scss",
-        "_btn.scss"
+        "_sunset.scss",
+        "_btn.scss",
+        "_variables.scss",
+        "_texteffects.scss",
+        "_variables.scss",
+        "_nature.scss",
+        "_variables.scss",
+        "_explore.scss",
+        "_variables.scss"
     ],
     "names": [],
     "file": "style.css"

@@ -1,0 +1,14 @@
+@import "./variables";
+.text-effect {
+    background-image: url("images/waterfall.jpg");
+    background-position: center;
+    color: transparent;
+    font-size: 8rem;
+    transition: all 0.3s;
+    -webkit-background-clip: text;
+}
+
+.text-effect:hover {
+    transform: skewY(-10deg);
+    letter-spacing: 5rem;
+}
