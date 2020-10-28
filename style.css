@@ -5,14 +5,15 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 62.5%;
- /* background-color: #a2dbec; */
+/*  background-color: #a2dbec; */
+  background-color: lightcyan;
 }
 
 .sunset {
-    height: 20rem;
+    height: 30rem;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .sunset:hover {
@@ -30,7 +31,7 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-/* background-color: #a2dbec; */
+background-color: lightcyan; 
 }
 
 .btn, 
@@ -43,17 +44,18 @@ body {
     margin: 1rem auto; 
     font-size: 2rem;
     border-radius: 10rem;
-    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+            transition: all 0.3s;
     position: relative;
 }
 
 .btn-red {
     background-color: color(red);
-    color: #fff;
+    color: plum;
 }
 .btn-red::after {
     background-color: color(red);
-    color: #fff;
+    color: plum;
 }
 .btn:hover {
     transform: translateY(-2px);
@@ -70,6 +72,7 @@ body {
     top: 0;
     left: 0;
     z-index: -1;
+    -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
 
@@ -90,13 +93,14 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-/* background-color: #a2dbec; */
+ background-color: lightcyan; 
 }
 
 .text-effect {
     background-image: url("images/waterfall.jpg");
     background-position: center;
     color: transparent;
+    -webkit-background-clip: text;
     background-clip: text;
     font-size: 8rem;
     -webkit-transition: all 0.3s;
@@ -104,9 +108,9 @@ body {
 }
 
 .text-effect:hover {
-    -webkit-transform: skewY(-10deg);
-            transform: skewY(-10deg);
-    letter-spacing: 5rem;
+    -webkit-transform: skewY(25deg);
+            transform: skewY(25deg);
+    letter-spacing: 2rem;
 }
 
 html,
@@ -116,7 +120,7 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-    background-color: #a2dbec; 
+    background-color: lightcyan; 
 }
 
 .nature-parent {
@@ -143,7 +147,6 @@ body {
         transform: scale(0.8);
     opacity: 0.3;
 }
-
 
 .nature-photo {
     position: absolute;
@@ -177,7 +180,7 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
- background-color: #a2dbec; 
+ background-color: lightcyan; 
 }
 
 .explore {
@@ -226,6 +229,6 @@ body {
     padding: 1rem;
     font-size: 1.5rem;
     align-items: center;
-    text-align: center;
+    text-align: center; 
 }
 /*# sourceMappingURL=style.css.map */

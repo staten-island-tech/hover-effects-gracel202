@@ -16,11 +16,11 @@
 
 .btn-red {
     background-color: color(red);
-    color: #fff;
+    color: plum;
 }
 .btn-red::after {
     background-color: color(red);
-    color: #fff;
+    color: plum;
 }
 .btn:hover {
     transform: translateY(-2px);

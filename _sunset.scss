@@ -1,12 +1,13 @@
 @import "./variables";
 .sunset {
-    height: 20rem;
+    height: 30rem;
     transition: all 0.3s;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 .sunset:hover {
     transform: scale(1.3);
-    box-shadow: 0 3rem 1 rem rgba(0, 0, 0, 0.4);
-    outline: 1rem solid color(blue);
+   // box-shadow: 0 3rem 1 rem rgba(0, 0, 0, 0.4); 
+    filter: grayscale(100%);
+    border-radius: 0;
 }
