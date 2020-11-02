@@ -1,5 +1,5 @@
 @import "./variables";
-.explore {
+ .explore {
     height: 30rem;
     position: relative;
 }
@@ -19,7 +19,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     transition: all 0.3s;
-    text-transform: uppercase;
 }
 
 .explore:hover .explore-header {
@@ -28,5 +27,5 @@
 }
 
 .explore:hover .explore-picture {
-    filter: grayscale(90%);
-}
+    filter: grayscale(75%);
+} 
